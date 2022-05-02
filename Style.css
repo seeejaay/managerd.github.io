@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap");
+
+.body {
+  background-color: #ffbde2;
+  padding: 1.5rem;
+  grid-gap: 1.5em;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.background {
+  border-radius: 25px;
+  background: #ffffff;
+  margin: 3rem;
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem;
+  grid-gap: 1.5em;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  place-items: center;
+}
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.name {
+  font-family: "Oswald", sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.intro {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.68rem;
+}
+
+#Twitter,
+#Kofi {
+  border-radius: 100px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#home,
+#price,
+#tos,
+#contact {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 1.68rem;
+  padding: 1.5rem;
+  grid-gap: 1.5em;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+}
+
+.head-3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 3rem;
+}
+.head-6 {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  margin-bottom: 6rem;
+  font-size: 3rem;
+}
+.auto-fit {
+  padding: 1.5rem;
+  grid-gap: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 4fr));
+}
+#icon_1,
+#icon_2,
+#icon_3,
+#icon_4,
+#icon_5,
+#icon_6,
+#icon_7,
+#icon_8 {
+  padding: 1.5rem;
+  border-radius: 40px;
+}
+
+.head-3-1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 3rem;
+  margin-top: 10px;
+}
+
+.genterms {
+  text-align: justify;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
+}
+
+.head-3-2 {
+  font-family: "Oswald", sans-serif;
+  text-align: justify;
+  font-size: 3rem;
+  margin-top: 10px;
+}
+
+.oneline {
+  display: inline-block;
+}
