@@ -53,9 +53,11 @@
   margin-top: 10px;
   margin-left: 10px;
   font-size: 1.68rem;
-  padding: 1.5rem;
+  width: 200px;
+  padding-left: 1.56rem;
+  padding-right: 1.56rem;
   grid-gap: 1.5em;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 4fr));
 }
 
 .head-3 {
