@@ -9,23 +9,23 @@ function opentwt() {
   console.log(b);
 }
 function openHome() {
-  var c = (window.location.href = "index.html?backurl" + window.location.href);
+  var c = (window.location.href = "index.html" );
   c;
   console.log(c);
 }
 function openPrice() {
-  var d = (window.location.href = "price.html?backurl" + window.location.href);
+  var d = (window.location.href = "price.html");
   d;
   console.log(d);
 }
 function openTos() {
-  var e = (window.location.href = "tos.html?backurl" + window.location.href);
+  var e = (window.location.href = "tos.html");
   e;
   console.log(e);
 }
 function openContact() {
   var f = (window.location.href =
-    "contact.html?backurl" + window.location.href);
+    "contact.html");
   f;
   console.log(f);
 }
